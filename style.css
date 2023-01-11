@@ -1,0 +1,45 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #todo-list {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #todo-list li {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  #new-task {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  #add-button {
+    width: 20%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #remove-button {
+    width: 20%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    background-color: #f44336;
+    color: white;
+    cursor: not-allowed;
+  }
+  
